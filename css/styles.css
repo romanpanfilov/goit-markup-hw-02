@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;
+  color: #434455;
 }
 
 ul {
@@ -43,6 +43,7 @@ address {
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #2e2f42;
 }
 
 .header-menu {
@@ -56,6 +57,7 @@ address {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .header-menu-item:hover {
@@ -63,6 +65,14 @@ address {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
+  color: #404bbf;
+}
+
+.header-menu-item:active {
+  color: #404bbf;
+}
+
+.header-menu-item:focus {
   color: #404bbf;
 }
 
@@ -116,6 +126,12 @@ address {
   letter-spacing: 0.04em;
   color: #fff;
   cursor: pointer;
+  background-color: #4d5ae5;
+}
+
+.business-btn:hover,
+.business-btn:focus {
+  background-color: #404bbf;
 }
 
 /*------------------ BUISINES SECTION -------------------*/
@@ -159,9 +175,11 @@ address {
   line-height: 111%;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
 }
 
 .team-menu {
+  background-color: #fff;
 }
 
 .team-menu-list {
@@ -199,6 +217,7 @@ address {
   line-height: 111%;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
 }
 
 .portfolio-menu {
