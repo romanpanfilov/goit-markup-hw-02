@@ -12,12 +12,11 @@ a {
   font-size: 12px;
   line-height: 133%;
   letter-spacing: 0.04em;
-  text-decoration: underline;
   text-decoration-skip-ink: none;
   color: #4d5ae5;
 }
 
-a: address {
+address {
   font-style: normal;
 }
 
